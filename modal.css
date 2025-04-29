@@ -1,0 +1,369 @@
+.container-modal {
+
+  border: 1px solid #ffffff00;
+  background-color: #e9e9e9e3;
+  width: 100vw;
+  min-height: 100vh;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top:0%;
+  left: 0%;
+  z-index: 100000;
+}
+
+#modal-proyect-1{
+  display: none;
+}
+
+.case-study {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 85%;
+  border-radius: 15px;
+  background-color: #ffffff74;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-proyect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+  /*border: 1px solid green;*/
+}
+
+.details-proyect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 58%;
+  padding: 4%;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+  margin-top: 10%;
+}
+
+.details-proyect h2 {
+  font-family: "Staatliches", sans-serif;
+  font-size: calc(35.15596px + 3.66972vw);
+  color: #000000;
+  padding: 5% 0%;
+}
+
+.details-proyect h3 {
+  font-family: "Staatliches", sans-serif;
+  font-size: calc(35.15596px + 0.4vw);
+  font-weight: 500;
+  line-height: 1.2;
+  color: #444;
+}
+
+.detail h4 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.08;
+  color: #000000;
+}
+
+.detail p {
+  font-size: 20px;
+  line-height: 1.08;
+  margin: 3% 0%;
+}
+
+.background-proyect {
+  width: 42%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-1 {
+  background-image: url(images/mathive/mathive-cover.png);
+}
+
+.image-2{
+  background-image:url(images/backdrop-cineastro.png) ;
+}
+
+.subtitle-section-modal {
+  width: 50%;
+  padding: 4%;
+  margin: 5% 0px;
+  text-align: left;
+}
+
+.subtitle-section-modal h3 {
+  font-family: "Staatliches", sans-serif;
+  font-size: calc(28.15596px + 0.4vw);
+  line-height: 1.5;
+  color: #000;
+}
+
+.subtitle-section-modal h4 {
+  font-family: "Staatliches", sans-serif;
+  font-size: calc(28.15596px + 0.2vw);
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+}
+
+.subtitle-section-modal p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 3% 0%;
+}
+
+.text-section-modal {
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  padding: 5%;
+}
+
+.proyect-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 0.5% 4%;
+  width: 100%;
+}
+
+.proyect-image figure {
+  width: 465px;
+  height: auto;
+  border-radius: 10px;
+  margin:1%;
+  overflow: hidden;
+}
+
+.image-info-proyect {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.img-section-modal {
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+}
+
+.section-proyect-ui {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  text-align: left;
+  padding: 4%;
+  width: 100%;
+}
+
+.subtitle-section-ui h4 {
+  font-family: "Staatliches", sans-serif;
+  font-size: calc(28.15596px + 0.2vw);
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  width: 60%;
+  padding: 2% 0%;
+  color: #000;
+}
+
+.subtitle-section-ui p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 2% 0%;
+}
+
+.grid-quarter {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 10px;
+}
+
+.button-close {
+    width: 40px;
+    height: 40px;
+    background-image: url(images/close-button.png);
+    background-position: center;
+    background-size: contain;
+    position:absolute;
+    top:0.3%;
+    left: 94%;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .proyect-prototipe{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .thinking-map{
+    height: 465px;
+    background-image: url(images/cineastro/design-thinking.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+  
+
+
+@media (max-width: 950px) {
+
+    .case-study {
+        width: 90%;
+      }
+
+      .section-proyect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+        width: 100%;
+        /*border: 1px solid green;*/
+      }
+      
+      .details-proyect {
+        align-items: flex-start;
+        text-align: left;
+        width: 90%;
+        padding: 2%;
+      }
+      
+    
+      .background-proyect {
+        width: 100%;
+        height: 30vh;
+        margin-top: 10%;
+      }
+
+      .subtitle-section-modal {
+        width: 100%;
+        padding-right:20%;
+      }
+      
+      .subtitle-section-modal h3 {
+        font-size: calc(28.15596px + 0.4vw);
+      }
+      
+      .subtitle-section-modal h4 {
+        font-size: calc(28.15596px + 0.2vw);
+        font-weight: 500;
+        line-height: 1.5;
+      }
+      
+      .subtitle-section-modal p {
+        width: 100%;
+      }
+      
+      .text-section-modal {
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+      }
+
+      .text-section-modal p{
+        padding-right:20%;
+      }
+      
+      .proyect-image {
+        flex-direction: column;
+        margin: auto;
+        padding: 0% 4%;
+        width: 100%;
+      }
+
+      .proyect-image figure {
+        width: 465px;;
+        margin-top: 2%;
+      }
+
+      
+.button-close {
+    top:0.2%;
+    left: 92%;
+    z-index: 10;
+  }
+
+}
+
+@media (max-width: 550px){
+    .container-modal {
+        border:none;
+      }
+      
+
+    .case-study {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-top: 10%;
+        width: 100%;
+        border-radius: 0px;
+      }
+    
+    .details-proyect h3 {
+        font-size: calc(35.15596px + 0.1vw);
+      }
+
+      
+      .detail h4 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      
+      .detail p {
+        font-size: 20px;
+        line-height: 1.08;
+        margin: 4% 0%;
+      }
+
+      .proyect-image figure {
+        width: 95%;
+        height: auto;
+      }
+
+      .button-close {
+        top:0.2%;
+        left: 85%;
+        z-index: 10;
+      }
+
+      .subtitle-section-modal h3 {
+        padding: 10% 0%;
+      }
+      
+      .subtitle-section-modal h4 {
+        padding: 10% 0%;
+      }
+
+      .subtitle-section-ui h4 {
+        padding: 10% 0%;
+        width: 80%;
+      }
+    
+      .thinking-map{
+        height: 365px;
+        background-size:cover;
+      }
+      
+
+}
